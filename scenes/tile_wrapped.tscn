@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://coo4rormvtj5m"]
+
+[ext_resource type="Script" uid="uid://ysrxatj54061" path="res://scenes/tile_wrapped.gd" id="1_ak42s"]
+[ext_resource type="Texture2D" uid="uid://1q0fb4moir2f" path="res://assets/Bomb.png" id="2_ak42s"]
+
+[node name="TileWrapped" type="Node2D"]
+script = ExtResource("1_ak42s")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_ak42s")

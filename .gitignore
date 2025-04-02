@@ -1,0 +1,20 @@
+# Godot system folders
+.import/
+.export/
+.godot/
+
+# Temporary files
+*.godot-import
+*.tmp
+*.imported
+*.translation
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific
+*.godot-windows.editor
+*.godot-osx.editor

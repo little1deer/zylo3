@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://drsm4mx0nffr5"]
+
+[ext_resource type="Script" uid="uid://cto0tkwvjsiyj" path="res://scenes/tile_colorbomb.gd" id="1_rvo5u"]
+[ext_resource type="Texture2D" uid="uid://vfedq0p7euq5" path="res://assets/ColorBomb.png" id="1_vn35w"]
+
+[node name="TileColorBomb" type="Node2D"]
+script = ExtResource("1_rvo5u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_vn35w")

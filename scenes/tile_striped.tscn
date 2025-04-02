@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bn1q1wodv8bg3"]
+
+[ext_resource type="Script" uid="uid://cua3m6eoksrjr" path="res://scenes/tile_striped.gd" id="1_jbrvj"]
+[ext_resource type="Texture2D" uid="uid://c83dc2j8y45w7" path="res://assets/Cherry.png" id="2_jbrvj"]
+
+[node name="TileStriped" type="Node2D"]
+script = ExtResource("1_jbrvj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_jbrvj")
